@@ -16,6 +16,8 @@ jobs:
           tool_name: 'testtool'
           level: error
           fail_on_error: true
+          checkstyle_version: 10.0
+
 
   build:
     runs-on: ubuntu-latest
